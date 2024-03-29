@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="LLM Tools",
-    page_icon="👋",
+    page_title="Masse's Swiss Army Knife",
+    page_icon="🤖",
 )
 
 
@@ -10,6 +10,6 @@ st.set_page_config(
 
 st.markdown(
     """
-    # Un po' di tool...
+    ## Un po' di tool...
 """
 )

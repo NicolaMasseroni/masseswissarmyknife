@@ -24,7 +24,7 @@ def prompt_summary(url):
     prompt_template = """This is a transcript of a Youtube video.
     Please identify the themes that may be unique to this video and write a detailed and comprehensive summary of the video.
     Use the ITALIAN language to write the summary.
-    
+
     TRANSCRIPT:
     "{text}"
 
@@ -109,5 +109,6 @@ with st.form("my-form", clear_on_submit=True):
     submit = st.form_submit_button('Start processing')
 
 if submit and yt_url is not None:
-    st.write(prompt_summary(yt_url))
+    with st.spinner('Summarizing...'):
+        st.write(prompt_summary(yt_url))
     #standard_summary(yt_url)
