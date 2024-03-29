@@ -7,3 +7,5 @@ anthropic
 tiktoken
 youtube-transcript-api
 pytube
+yt-dlp
+pydub
