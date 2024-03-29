@@ -10,6 +10,6 @@ st.set_page_config(
 
 st.markdown(
     """
-    # Un po' di tool per il NLP
+    # Un po' di tool...
 """
 )
