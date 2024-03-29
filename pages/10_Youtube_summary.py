@@ -23,6 +23,8 @@ def prompt_summary(url):
     DETAILED SUMMARY:"""
     prompt_template = """This is a transcript of a Youtube video.
     Please identify the themes that may be unique to this video and write a detailed and comprehensive summary of the video.
+    Use the ITALIAN language to write the summary.
+    
     TRANSCRIPT:
     "{text}"
 
@@ -86,7 +88,7 @@ def standard_summary(url):
 #URL = "https://www.youtube.com/watch?v=Cog4km4gQ00"
 #URL = "https://www.youtube.com/watch?v=43vYRZe9aus" # Adrian
 #URL = "https://www.youtube.com/watch?v=XGQdIdzxBf0"
-URL = "https://www.youtube.com/watch?v=jiiQUTQTNtk"
+#URL = "https://www.youtube.com/watch?v=jiiQUTQTNtk"
 
 
 #MODEL = "claude-3-opus-20240229"
