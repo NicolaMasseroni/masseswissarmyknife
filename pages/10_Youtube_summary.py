@@ -100,7 +100,7 @@ MODEL = "claude-3-haiku-20240307"
 
 st.set_page_config(
     page_title="Youtube summary",
-    page_icon="👋",
+    page_icon="🤖",
 )
 st.write("# Summarize youtube video")
 
