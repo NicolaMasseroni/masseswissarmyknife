@@ -1,1 +1,9 @@
 streamlit==1.26.0
+langchain
+langchain-community
+langchain-anthropic
+langchain-text-splitters
+anthropic
+tiktoken
+youtube-transcript-api
+pytube
