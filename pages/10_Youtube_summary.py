@@ -49,7 +49,7 @@ def prompt_summary(url):
 
 
 def standard_summary(url):
-    loader = YoutubeLoader.from_youtube_url(url, add_video_info=False, language=["it", "en"],)
+    loader = YoutubeLoader.from_youtube_url(url, add_video_info=False, language=["it", "en", "fr", "de"],)
 
     loader.load()
 
