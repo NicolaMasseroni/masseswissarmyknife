@@ -2,6 +2,7 @@ streamlit>=1.32.0
 langchain
 langchain-community
 langchain-anthropic
+langchain-openai
 langchain-text-splitters
 anthropic
 tiktoken
