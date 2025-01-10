@@ -11,3 +11,4 @@ pytube
 yt-dlp
 pydub
 openai
+python-dotenv

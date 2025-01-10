@@ -7,11 +7,14 @@ from langchain.chains.summarize import load_summarize_chain
 from langchain_openai import ChatOpenAI
 from langchain_community.document_loaders import YoutubeLoader
 from langchain.chains.combine_documents import create_stuff_documents_chain
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def prompt_summary(url):
     loader = YoutubeLoader.from_youtube_url(
         url,
-        add_video_info=True,
+        add_video_info=False,
         language=["it", "en", "fr", "de"]
     )
 
